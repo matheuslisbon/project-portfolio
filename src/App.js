@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import NavBar from './components/NavBar/index'
+import GlobalStyles from './styles/GlobalStyles'
+import light from './styles/themes/light'
+import dark from './styles/themes/dark'
+import {ThemeProvider} from 'styled-components'
+import Routes from './routes'
+import {Router} from 'react-router-dom'
+import history from './services/history'
+import SideBar from './components/SideBar';
 
 function App() {
+  const [theme, setTheme]=useState(dark)
+
+  const togleTheme = ()=>{
+    setTheme(theme.title === 'light' ? dark : light)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles/>
+          <Router history={history}>
+          <NavBar togleTheme={togleTheme}/>
+          <SideBar />
+            <Routes/>
+          </Router>
+    </ThemeProvider>
   );
 }
 
