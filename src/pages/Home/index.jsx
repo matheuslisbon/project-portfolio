@@ -33,10 +33,10 @@ export default function (){
       <div className='div-redes'>
             <p className='p-ul'>Contato</p>
           <ul className='div-redes-ul'>
-                    <li><p className='waths'><a className='link-href' href="https://wa.me/5581986384447?text=Ol%C3%A1+gostaria+da+saber+um+pouco+do+seu+trabalho%21"> <img alt='whatsapp image logo' className='img-link' src={WathsappImg} alt=""/></a></p></li>
-        <li><p className='insta'><a className='link-href' href='https://www.instagram.com/matheus_lisbon/'> <img alt='instagram image logo' className='img-link' src={Instagram} alt=""/></a></p></li>
-        <li><p className='face'><a className='link-href' href="https://www.facebook.com/profile.php?id=100009610324999"> <img alt='facebook image logo' className='img-link' src={Facebook} alt=""/></a> </p></li>
-        <li><p className='linkedin'><a className='link-href' href="https://www.linkedin.com/in/matheus-eduardo-a83a8a1a7/"> <img alt='linkedin image logo' className='img-link' src={Linkedin} alt=""/></a></p></li>
+                    <li><p className='waths'><a className='link-href' href="https://wa.me/5581986384447?text=Ol%C3%A1+gostaria+da+saber+um+pouco+do+seu+trabalho%21"> <img alt='whatsapp image logo' className='img-link' src={WathsappImg} /></a></p></li>
+        <li><p className='insta'><a className='link-href' href='https://www.instagram.com/matheus_lisbon/'> <img alt='instagram image logo' className='img-link' src={Instagram} /></a></p></li>
+        <li><p className='face'><a className='link-href' href="https://www.facebook.com/profile.php?id=100009610324999"> <img alt='facebook image logo' className='img-link' src={Facebook} /></a> </p></li>
+        <li><p className='linkedin'><a className='link-href' href="https://www.linkedin.com/in/matheus-eduardo-a83a8a1a7/"> <img alt='linkedin image logo' className='img-link' src={Linkedin} /></a></p></li>
 
           </ul>
   
