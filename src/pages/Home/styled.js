@@ -118,7 +118,9 @@ const Desc = styled.div`
   label,
   .bem-vindo{
     color: ${props => props.theme.colors.decorate};
-    font-family: cursive;
+    font-family: Ubuntu;
+    font-weight: bold;
+
   }
   a.port-link{
     color: ${props => props.theme.decorate};

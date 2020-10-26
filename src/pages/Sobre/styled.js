@@ -23,7 +23,8 @@ line-height:1.3;
   label{
     color: ${props => props.theme.colors.decorate};
     font-weight:bold;
-    font-family: cursive;
+    font-family: Ubuntu;
+
   }
 `
 
