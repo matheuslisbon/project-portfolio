@@ -17,8 +17,8 @@ export default function (){
         <p>Tecnologias que Quero Aprender: <label>NextJS, TypesScipt...</label></p>
       </div>
       <div className='sobre-apr'>
-      Olá! Me chamo <label htmlFor="">Matheus Eduardo sou de Recife em Pernambuco,</label> tenho 17 anos e sou apaixonado por Animes,
-        Dês dos meus 14 anos estudo programação... Atualmente estou estudando Jest E Migrations no entanto já sei tecnologias como Node, React, Express, MongoDb, PostgreSQL, MySQL, Git e GitHub...
+      Olá! Me chamo <label htmlFor="">Matheus Eduardo sou de Recife em Pernambuco, </label> 
+        comecei nos meus 14 anos a estudar programação... Atualmente estou estudando Jest E Migrations no entanto já sei tecnologias como Node, React, Express, MongoDb, PostgreSQL, MySQL, Git e GitHub...
         <label htmlFor="">Além de programar tenho outras paixões como jogar Futebol e Jogos OnLines...</label> Além disso 
         <label htmlFor=""> Sou filho da Dr.Cristiane e do Sr.Sidney,</label>
         <label htmlFor=""> Hora outra sou Hokage ! Datebayo</label>,
