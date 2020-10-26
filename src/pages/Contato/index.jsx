@@ -37,10 +37,10 @@ export default function () {
              <p>
               Aqui estão algumas das minhas redes sociais onde você pode falar comigo!
             </p>  
-             <p className='waths'><a className='link-href' href="https://wa.me/5581986384447?text=Ol%C3%A1+gostaria+da+saber+um+pouco+do+seu+trabalho%21"> <img className='img-link' src={WathsappImg} alt=""/>  Wathsapp -  (81) 98638-4447</a></p>
-             <p className='insta'><a className='link-href' href='https://www.instagram.com/matheus_lisbon/'> <img className='img-link' src={Instagram} alt=""/> Instagram - @matheus_lisbon</a></p>
-             <p className='face'><a className='link-href' href="https://www.facebook.com/profile.php?id=100009610324999"> <img className='img-link' src={Facebook} alt=""/> Facebook - Matheus Lisbon</a> </p>
-             <p className='linkedin'><a className='link-href' href="https://www.linkedin.com/in/matheus-eduardo-a83a8a1a7/"> <img className='img-link' src={Linkedin} alt=""/> Linkedin - Matheus Eduardo</a></p>
+             <p className='waths'><a className='link-href' href="https://wa.me/5581986384447?text=Ol%C3%A1+gostaria+da+saber+um+pouco+do+seu+trabalho%21"> <img className='img-link' src={WathsappImg} alt=""/><label htmlFor="">Wathsapp -</label>  (81) 98638-4447</a></p>
+             <p className='insta'><a className='link-href' href='https://www.instagram.com/matheus_lisbon/'> <img className='img-link' src={Instagram} alt=""/> <label htmlFor="">Instagram -</label> @matheus_lisbon</a></p>
+             <p className='face'><a className='link-href' href="https://www.facebook.com/profile.php?id=100009610324999"> <img className='img-link' src={Facebook} alt=""/> <label htmlFor="">Facebook -</label> Matheus Lisbon</a> </p>
+             <p className='linkedin'><a className='link-href' href="https://www.linkedin.com/in/matheus-eduardo-a83a8a1a7/"> <img className='img-link' src={Linkedin} alt=""/> <label htmlFor>Linkedin -</label> Matheus Eduardo</a></p>
           </div>
         </section>
 

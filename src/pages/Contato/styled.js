@@ -173,6 +173,17 @@ const Cont = styled.div`
       display:flex;
       flex-direction: column;
     }
+    .cont-redes a label{
+
+      display:none;
+      justify-content: initial;
+      width: 56px;
+
+    }
+    .cont-redes a {
+      width: 196px;
+    }
+
   }
 
 

@@ -79,7 +79,7 @@ export default function (){
         <div>
             <a className='port-link' style={{color:'#04B2D9'}} target='_black' href="https://dados-covid-world.netlify.app/">  <h1>Dados covid-19</h1></a>
             <img src={ImgSite} alt="dados diarios de covid"/>
-            <p>Projeto que fiz para orientar pessoa sobre a panderia do covid </p>
+            <p>Projeto que relata casos diarios e recomendações sobre a pandemia</p>
 
           </div>
 
